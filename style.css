@@ -192,7 +192,7 @@ h4{
 }
 
 /* screen size for tablet */
-@media only screen and (max-width:900px){
+@media only screen and (max-width:768px){
   nav i{
     display: block !important;
     font-size: 10px;
@@ -231,7 +231,6 @@ h4{
     border-radius: 20px 20px 20px 20px;
   }
 
-
   .icons{
     display: flex;
     flex-direction: column;
@@ -240,5 +239,77 @@ h4{
     margin-left: 2px;
     text-align: left;
     margin-bottom: 20px;
+  }
+}
+
+/* screen size for mobile */
+@media (max-width:480px){
+  {
+    max-width: 480px;
+  }
+
+  nav i{
+    display: block !important;
+    font-size: 5px;
+    margin-left: 40%;
+  }
+
+  nav .logo{
+    width: 20%;
+  }
+
+  .text-overlay{
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 350px;
+  }
+
+  .text-overlay p{
+    font-size: 15px
+  }
+
+  .image-box img{
+    width: 140%;
+  }
+
+  .images{
+    margin-bottom: 100%;
+  }
+
+  .images img{
+    margin-bottom: 20px;
+  }
+
+  .content-text{
+    width: 500px;
+    height: 300px;
+    background-color: #F2F0F2;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+  }
+
+  .content-text h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 100px;
+  }
+
+  .content-text p{
+    width: 240px;
+  }
+
+  div .lorem{
+    margin-left: 100px;
+  }
+
+  div .lorem2{
+    margin-left: 100px;
+  }
+
+  .icons{
+    margin-left: 100px;
   }
 }
